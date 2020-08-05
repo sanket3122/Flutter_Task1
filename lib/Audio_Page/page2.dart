@@ -33,7 +33,7 @@ class Page2 extends StatelessWidget {
                     context,
                     MaterialPageRoute(builder: (context) => LocalAudio()),
                   );
-                  // Navigate to second route when tapped.
+           
                 },
               ),
             ),
@@ -54,7 +54,7 @@ class Page2 extends StatelessWidget {
                     context,
                     MaterialPageRoute(builder: (context) => Page4()),
                   );
-                  // Navigate to second route when tapped.
+      
                 },
               ),
             ),
@@ -64,7 +64,7 @@ class Page2 extends StatelessWidget {
               child: RaisedButton(
                 onPressed: () {
                   Navigator.pop(context);
-                  // Navigate back to first route when tapped.
+                 
                 },
                 textColor: Colors.black,
                 color: Colors.grey.shade400,
