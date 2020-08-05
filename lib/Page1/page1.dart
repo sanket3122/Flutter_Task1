@@ -34,7 +34,7 @@ class Page1 extends StatelessWidget {
                     context,
                     MaterialPageRoute(builder: (context) => Page2()),
                   );
-                  // Navigate to second route when tapped.
+                 
                 },
               ),
             ),
@@ -55,7 +55,7 @@ class Page1 extends StatelessWidget {
                     context,
                     MaterialPageRoute(builder: (context) => Page5()),
                   );
-                  // Navigate to second route when tapped.
+               
                 },
               ),
             ),
